@@ -1,0 +1,158 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*#browse{
+ 
+}
+#Csv{
+    padding-left: 100px;
+}*/
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #422;
+}
+
+img {
+    max-width: 100%;
+}
+
+.home-image {
+    box-shadow: 4px 9px 22px black;
+}
+
+.navbar.navbar-fixed-top {
+    background: #422;
+    height: auto;
+    min-height: 0;
+}
+
+.navbar.navbar-inverse {
+    border-bottom: none;
+}
+
+    .navbar.navbar-inverse .navbar-nav > li > a, .add-more a {
+        transition: 0.3s;
+        border: none;
+        padding: 10px;
+        width: 105px;
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+        height: auto;
+    }
+
+    .add-more a {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .navbar.navbar-inverse .navbar-nav > li > a {
+        border-left: 1px solid #c8c8c8;
+    }
+
+    .navbar.navbar-inverse .navbar-nav > li:last-child > a {
+        border-right: 1px solid #c8c8c8;
+    }
+
+    .navbar.navbar-inverse .navbar-nav.navbar-right > li:last-child > a {
+        border-right: 0;
+    }
+
+    .navbar.navbar-inverse .navbar-nav.navbar-right > li:first-child > a {
+        border-left: 1px solid #c8c8c8;
+    }
+
+    .navbar.navbar-inverse .navbar-nav > li:first-child > a {
+        border-left: 0;
+    }
+        
+    .navbar.navbar-inverse .navbar-nav > li > a:hover,
+    .add-more a:hover {
+        background: none;
+        text-decoration: none;
+    }
+
+.add-more {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.add-more a {
+    background: #422;
+}
+
+.navbar > .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.navbar .navbar-right {
+    margin-right: 0;
+}
+
+.container .checkbox input[type="checkbox"] {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .container > .navbar-collapse {
+        padding: 0;
+    }
+    
+    .navbar.navbar-inverse .navbar-nav > li {
+        display: block;
+        float: none;
+    }
+
+        .navbar.navbar-inverse .navbar-nav > li a {
+            width: 100%;
+            box-shadow: none;
+            padding: 7px;
+            line-height: 1;
+            text-align: center;
+            height: auto;
+            border-bottom: 1px solid #697075;
+        }
+
+        .navbar.navbar-inverse .navbar-nav:last-child > li:last-child a {
+            border-bottom: none;
+        }
+
+    .navbar-nav {
+        margin: 0;
+    }
+}
+
+.second-image {
+    margin-top: 20px;
+}

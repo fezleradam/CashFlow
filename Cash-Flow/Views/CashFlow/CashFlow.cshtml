@@ -1,0 +1,16 @@
+﻿@model Cash_Flow.Models.CashFlowViewModel
+
+@{
+    ViewBag.Title = "CashFlowViewModel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cash-Flow Summary</h2>
+
+<div class="text-center">
+    <img src="~/CashFlow/Diagram" class="diagram">
+</div>
+
+<p class="add-more">
+    @Html.ActionLink("Add more data", "DataTable", "DataTable")
+</p>
