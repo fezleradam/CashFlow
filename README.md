@@ -1,2 +1,2 @@
 # CashFlow
-myCashFlowApp
+myFirstMVCProject
